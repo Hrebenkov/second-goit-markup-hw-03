@@ -11,12 +11,45 @@
     --background-button-color: #F5F4FA;
 }
 
+/* ============= сброс стилей ============= */
 body {
     background-color: var(--white);
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
     color: var(--grey);
 }
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ============   сброс стилей с  ul ============== */
+.list-style {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============== сброс стилей с  <a> =========== */
+.link-decor {
+    text-decoration: none;
+}
+
+
+/* ============= Компоненти ============= */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 /* color logo*/
 /* header */
